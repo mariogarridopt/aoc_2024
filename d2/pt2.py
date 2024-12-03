@@ -62,7 +62,7 @@ def is_level_safe(level_list: list) -> bool:
         remove_right_result = get_failing_index(level_list_clone);
     
     # Result 
-    return (remove_left_result == -1 OR remove_center_result == -1 OR remove_right_result == -1)
+    return (remove_left_result == -1 or remove_center_result == -1 or remove_right_result == -1)
 
 def main():
     levels = get_levels()
